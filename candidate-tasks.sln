@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{938CDD1B-9436-4BE3-87E6-139C63610357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sampleapp_dotnet", "sampleapp_dotnet", "{557A723D-84EF-4930-A5BA-0AD492FC5060}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorldApp", "app\sampleapp_dotnet\HelloWorldApp\HelloWorldApp.csproj", "{E8B55B87-5B77-43C2-A6D5-51B0220C0451}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8B55B87-5B77-43C2-A6D5-51B0220C0451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B55B87-5B77-43C2-A6D5-51B0220C0451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B55B87-5B77-43C2-A6D5-51B0220C0451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B55B87-5B77-43C2-A6D5-51B0220C0451}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{557A723D-84EF-4930-A5BA-0AD492FC5060} = {938CDD1B-9436-4BE3-87E6-139C63610357}
+		{E8B55B87-5B77-43C2-A6D5-51B0220C0451} = {557A723D-84EF-4930-A5BA-0AD492FC5060}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAC1B74C-009B-40F6-A61C-91F860EB9BCB}
+	EndGlobalSection
+EndGlobal
